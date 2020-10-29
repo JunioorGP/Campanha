@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<!--
+
+    HTML 
+    
+    Hyper Text 
+        textos q aceitam links, e audio visual
+    
+    Markup
+        marcação feitas com tags
+
+    Language
+    linguagem
+
+-->
+
+<html lang="pt_BR">
+  <head>
+    <!-- responsavel por receber configuraçoes da pagina-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vereador James</title>
+
+    <a href="./css/main.css"></a>
+
+    <style>
+      :root{
+        font-size: 62,5%;
+      }
+      body {
+        background: #06c401;
+       
+        color: black;
+
+        text-align: center;
+
+        font-size: 1.8rem;
+        
+        }
+
+        .logo img{
+    
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 100%;
+          border: none;
+        }
+
+        .logo2 img{
+          
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 100%;
+          border: none;
+  }
+        
+        /*#whats{
+          border: none;
+          position: absolute;
+          bottom: -14rem;
+        }*/
+     
+
+        .primary-button {
+          
+            margin-top: 2rem;
+          
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+            height: 6.4rem; 
+            border: none;
+
+            cursor: pointer;
+
+            background: #38de55;
+
+            border-radius: 2rem;
+            color: white;
+
+    
+
+    /*transition: background-color .2s;*/
+
+    text-decoration: none;
+        }
+
+        .second-button {
+
+            width: 100%;
+            height: 6.4rem;
+            border: none;
+                  
+            margin:auto;
+            
+            cursor: pointer;
+
+            background: #2e5097;
+
+            border-radius: 2rem;
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            /*transition: background-color .2s;*/
+
+            text-decoration: none;
+        }
+    </style>
+  </head>
+
+  <body>
+    <!--h1 = titulos-->
+      <div class="logo">
+        <img class="primary-image" src="logo.jpeg" alt="Vereador James"/>
+      </div> 
+      
+    
+     
+    <!--<p></p> = paragrafo
+        strong deixa em negrito
+        .(nome da classe) chama a classe no css
+        #(acessar id)
+        -->
+
+    
+    <p>
+        Vamos juntos nessa "A fé sem obras e morta"
+    </p>
+
+    <p>
+        Fale comigo pelo Whatsapp <a
+        href="https://api.whatsapp.com/send?phone=5567984412979&text=oi%2C%20fale%20comigo"
+        target="_blank"
+        ><button  class="primary-button"><img src="whats.png" width="50" height="50"> </button><Whatsapp></a>
+    </p>
+
+    <p>
+        Ou até mesmo pelo Facebook <a href="https://www.facebook.com/profile.php?id=100048496803377" target="_blank"><button  class="second-button"><img src="face.png" width="50" height="50"> </button><Whatsapp></a>
+    </p>
+      <div class="logo2">
+        <img class="second-image" src="soli.png" alt="">
+
+      </div>
+  </body>
+</html>
